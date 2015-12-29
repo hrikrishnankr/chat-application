@@ -1,0 +1,88 @@
+header{
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background: #3b5998;
+	display: block;
+}
+
+header img{
+	position: absolute;
+	left:17%;
+}
+.chat_wrapper{
+	border:1px solid black;
+}
+
+.chat_list {
+	position: absolute;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	width: 13%;
+	border: 1px solid gray;
+	font-size: 12px;
+	overflow: auto;
+}
+
+.friend_detail{
+	margin-top: 5px;
+	height: 30px;
+	margin-left: 5px;
+}
+
+.friend_detail div{
+	display: inline;
+}
+
+.friend_pic_div{
+	float: left;
+	width: 20%;
+}
+
+.friend_name_div {
+	float: left;
+	width: 60%;
+	position: relative;
+	top: 6.5px;
+	left: 5px;
+	overflow: auto;
+}
+
+.friend_indicator_div{
+	float: right;
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	position: relative;
+	top: 10px;
+	right:5px;
+	background-color: green;
+}
+
+.posts{
+	width: 50%;
+	border: 1px solid gray;
+	position: absolute;
+	left: 17%;
+	top:40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .chat_list {
+		display: none;
+	}
+	.posts{
+		width: 90%;
+		border: 1px solid gray;
+		position: absolute;
+		left: 5%;
+		top:40px;
+	}
+	header img{
+		position: absolute;
+		left:5%;
+	}
+}
