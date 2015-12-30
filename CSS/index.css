@@ -195,6 +195,11 @@ header img{
 
 .message{
 	height: 29px;
+	display: none;
+}
+
+.send{
+	display: none; 
 }
 
 @media only screen and (max-width: 768px) {
