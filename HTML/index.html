@@ -10,6 +10,13 @@
 <body>
 	<header>
 		<img src="../images/facebook-icon.png" alt="" width="30px" height="30px">	
+		<input type="text" class="head_search">
+		<a href="#" class="btn btn-info btn-xs">
+          	<span class="glyphicon glyphicon-search"></span>
+        </a>
+        <span class="glyphicon glyphicon-user" id="people">
+        <span class="glyphicon glyphicon-globe" id="globe">
+        <span class="glyphicon glyphicon-comment"></span>
 	</header>
 		<section class="chat_section">
 			<div class="chat_list">
@@ -28,7 +35,7 @@
 				<div class="friend_detail" onclick="showChatBox(this)">
 					<div class="friend_pic_div">
 						<div class="friend_pic">
-							<img src="../images/images.jpg" alt="#" width="100%" height="30px">
+							<img src="../images/7101973.jpg" alt="#" width="100%" height="30px">
 						</div>
 					</div>
 					<div class="friend_name_div">
@@ -61,7 +68,7 @@
 				</div>
 				<div id="chat_box_body_id"></div>
 				<div id="chat_box_footer_id">
-					<input type="text" class="message">
+					<input type="text" class="message" placeholder="Send a message">
 					<button class="send">Send</button>
 				</div>
 			</div>
@@ -102,6 +109,39 @@
 				</div>
 			</div>
 			<hr>
+			<div class="post">
+				<div class="post_head">
+					<img src="../images/7101973.jpg" alt="#" width="40px" height="40px">
+					<div class="id_block">
+						<div class="name">Anees</div>
+						<div class="time">1 hrs</div>
+					</div>
+					<span class="glyphicon glyphicon-menu-down down_arrow"></span>
+				</div>
+				<div class="post_body">
+					Feeling Happy!!
+				</div>
+				<div class="post_footer">
+					<div class="like"> 
+						<a href="#">
+          					<span class="glyphicon glyphicon-thumbs-up"></span>
+        				</a>
+						Like
+					</div>
+					<div class="comment">
+						<a href="#">
+          					<span class="glyphicon glyphicon-comment"></span>
+        				</a>
+						Comment
+					</div>
+					<div class="share">
+						<a href="#">
+          					<span class="glyphicon glyphicon-share-alt"></span>
+        				</a>
+						Share
+					</div>
+				</div>
+			</div>
 		</div>
 		
 	<footer></footer>
