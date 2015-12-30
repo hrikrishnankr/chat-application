@@ -63,11 +63,53 @@ header img{
 }
 
 .posts{
-	width: 50%;
-	border: 1px solid gray;
+	width: 40%;
+	border: 0px solid blue;
 	position: absolute;
 	left: 17%;
 	top:40px;
+	box-shadow: 2px 1px 5px gray;
+	border-radius: 4px;
+}
+
+.post{
+	width: 100%;
+}
+
+.post_head{
+	display: inline;
+}
+
+.post_head img{
+	margin-bottom: 22px;
+}
+
+.id_block{
+	display: inline-block;
+}
+
+.post_footer div{
+	display: inline-block;
+	color: #3b5998;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.post_footer div:hover{
+	text-decoration: underline;
+}
+.id_block .name{
+	color: #3b5998;
+	font-size: 18px;
+}
+
+.id_block .time{
+	color: gray;
+} 
+
+.down_arrow{
+	float: right;
+	margin-right: 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -76,7 +118,7 @@ header img{
 	}
 	.posts{
 		width: 90%;
-		border: 1px solid gray;
+		border: 0px solid gray;
 		position: absolute;
 		left: 5%;
 		top:40px;
