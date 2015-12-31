@@ -285,4 +285,7 @@ header a{
 	.btn-xs{
 		display: none;	
 	}
+	.chat_boxes{
+		display: none;
+	}
 }
